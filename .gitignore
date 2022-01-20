@@ -1,5 +1,5 @@
-./blockdata.lsp
-./block/blockdata.lsp
-./cards.lsp
-./3maku.lsp
-./train/trains.lsp
+blockdata.lsp
+block/blockdata.lsp
+cards.lsp
+3maku.lsp
+train/trains.lsp
