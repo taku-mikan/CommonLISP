@@ -1,0 +1,6 @@
+(defun drawline (n)
+    (cond ((zerop n) nil)
+          (t (format t "*")
+             (drawline (- n 1)))
+    )
+)
