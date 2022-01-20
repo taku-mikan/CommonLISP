@@ -1,0 +1,5 @@
+(defun supporters (x)
+    (mapcar #'first (fetch (list '? 'supports x)))
+)
+; (load "supporters.lsp")
+; (supporters 'B1)

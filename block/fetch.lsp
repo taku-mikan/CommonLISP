@@ -1,0 +1,6 @@
+(defun fetch (q)
+    (remove-if-not #'(lambda (x) (match-triple x q)) blockdata)
+)
+; (load "fetch.lsp")
+; (fetch '(? supports B1))
+; (fetch '(B1 shape ?)) -> ((B1 SHAPE BRICK))

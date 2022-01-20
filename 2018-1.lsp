@@ -1,0 +1,6 @@
+(defun next-to-last (x)
+    (cond ( (< (length x) 2) nil)
+          ( (equal (length x) 2) (first x))
+          ( t (next-to-last (rest x)))
+    )
+)

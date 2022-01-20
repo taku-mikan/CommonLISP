@@ -1,0 +1,6 @@
+(defun rank (x)
+    (first x)
+)
+(defun suit (x)
+    (second x)
+)

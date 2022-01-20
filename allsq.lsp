@@ -1,0 +1,11 @@
+(defun allsq (x)
+    (cond ( (null x) nil)
+          ( (numberp x) (* x x))
+          ( (atom x) x)
+          ( t (cons (allsq (first x)) (allsq (rest x))))
+    )
+)
+
+;; (allsq '(((u)) (-1) 2.0))
+;; (allsq '((a -3 7b)))
+;; (allsq '(()))
