@@ -3,3 +3,4 @@ block/blockdata.lsp
 cards.lsp
 3moku.lsp
 train/trains.lsp
+*/.DS_store
